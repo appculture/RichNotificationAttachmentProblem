@@ -72,7 +72,7 @@ Why it shows original content is probably because the whole modified contant bec
 
 Because of attachment, the whole content object is invalid, which means there is **no alert text**, and the system delivers the original notification content.
 
-*Maybe this is just a guess, but we hope Apple can help.*
+*Maybe this is just a guess, but we hope Apple or someone else can help.*
 
 ## Who we are?
 > <a href="http://appculture.com"><img src="http://appculture.com/wp-content/uploads/2015/11/appculture.svg" width="256"/></a>

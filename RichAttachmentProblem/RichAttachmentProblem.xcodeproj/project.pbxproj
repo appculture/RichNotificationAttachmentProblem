@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -160,7 +160,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Uros Krkic";
+				ORGANIZATIONNAME = appculture;
 				TargetAttributes = {
 					453DF43B1EE98B0700E06F2A = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -183,7 +183,7 @@
 				};
 			};
 			buildConfigurationList = 453DF4371EE98B0700E06F2A /* Build configuration list for PBXProject "RichAttachmentProblem" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -441,6 +441,7 @@
 				453DF4501EE98B0700E06F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		453DF45E1EE98C9E00E06F2A /* Build configuration list for PBXNativeTarget "RichNotificationExtension" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +450,7 @@
 				453DF4601EE98C9E00E06F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -3,7 +3,7 @@
 //  RichNotificationExtension
 //
 //  Created by Uros Krkic on 6/8/17.
-//  Copyright © 2017 Uros Krkic. All rights reserved.
+//  Copyright © 2017 appculture. All rights reserved.
 //
 
 import UserNotifications

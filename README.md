@@ -6,7 +6,7 @@
 ## References
 We also participated in Apple's [forum](https://forums.developer.apple.com/message/193994) where people also complained about this issue.
 
-##Issue
+## Issue
 Our app uses [`UNNotificationServiceExtension`](https://developer.apple.com/documentation/usernotifications/unnotificationserviceextension) to handle and modify rich content.
 We have an issue when we send a rich push with an **image attachment**, but it is reproducable only if you do a clean install of the app and reboot your device. The first push message the device recieves does not show the image and falls back to default message, discarding all other changes in content we did in our notification service extension.
 
@@ -14,7 +14,7 @@ When we send the same message again, everything works as expected, showing modif
 
 **Important note:** The problem exists only if we change contnent's attachment. If we remove it and change other fiels like title, subtitle, body, everything works as expected.
 
-##Requirements
+## Requirements
 - Xcode 8.x
 - iOS 10.x device
 - push certificate
@@ -39,7 +39,7 @@ In step 8, we expect a message with attachment and modified title/subtitle/body,
 When you send the same message again, we receive it as expected.
 ![Expected](Images/expected.png)
 
-##Push Payload
+## Push Payload
 ```json
 {
     "aps" : {
@@ -59,7 +59,7 @@ When you send the same message again, we receive it as expected.
 
 You can use as `attachment` value any downloadable image - max size is 10 MB.
 
-##Our Observation
+## Our Observation
 It seems to us there is some inter process communication problem when a device is rebooted. `didReceive` method from service extension runs in a separate process than main app and also in a background thread.
 
 As stated in Apple's documentation for [`UNNotificationAttachment`](https://developer.apple.com/documentation/usernotifications/unnotificationattachment):

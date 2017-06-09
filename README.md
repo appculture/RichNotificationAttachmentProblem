@@ -67,7 +67,7 @@ As stated in Apple's documentation for [`UNNotificationAttachment`](https://deve
 
 the system moves/copies the attachment. It seems to us there is some problem during the process of moving/coping, assign IPC rights, validating it. It fails, and the message is delivered without modified content. 
 
-Why it shows original content is probably because the whole modified contant becomes invalid because of the attachment. As stated in Apple's documentation for [`didReceive`](https://developer.apple.com/documentation/usernotifications/unnotificationserviceextension/1648229-didreceive):
+Why it shows original content is probably because the whole modified content becomes invalid because of the attachment. As stated in Apple's documentation for [`didReceive`](https://developer.apple.com/documentation/usernotifications/unnotificationserviceextension/1648229-didreceive):
 >You can modify any of the content from the original request. You might customize the content for the current user or replace it altogether. You can use this method to download images or movies and add them as attachments to the content. You may also modify the alert text as long as you do not remove it. If the content object does not contain any alert text, the system ignores your modifications and delivers the original notification content.
 
 Because of attachment, the whole content object is invalid, which means there is **no alert text**, and the system delivers the original notification content.

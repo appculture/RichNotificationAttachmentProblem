@@ -1,7 +1,7 @@
 # Rich Push Attachment Problem using UNNotificationServiceExtension
 **Problem in notification service extension when we modify the content adding an attchment to it.**
 
-> Before we decided to contact Apple, we tried everything that came into our minds, but unfortunately without success.  
+> Before we decided to publish this project, we tried everything that came into our minds, but unfortunately without success.  
 
 ## References
 We also participated in Apple's [forum](https://forums.developer.apple.com/message/193994) where people also complained about this issue.

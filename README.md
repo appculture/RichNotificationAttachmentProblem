@@ -1,5 +1,5 @@
 # Rich Push Attachment Problem using UNNotificationServiceExtension
-**Problem in notification service extension when we modify the content adding an attchment to it.**
+**Problem in notification service extension when we modify the content by adding an attchment to it.**
 
 > Before we decided to publish this project, we tried everything that came into our minds, but unfortunately without success.  
 
